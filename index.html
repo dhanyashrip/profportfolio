@@ -428,8 +428,9 @@
         MJG1124WEBDO17
     </p>
 
-    <button
-        onclick="openCertificate('C:\Users\Dhanya\Desktop\certifications')"
+    <a
+        href="certificates/Web%20Development%20Internship.pdf"
+        target="_blank" rel="noopener noreferrer"
         class="mt-3 inline-flex items-center gap-2 text-xs text-indigo-400 hover:text-indigo-300 transition-colors">
 
         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -444,7 +445,7 @@
         </svg>
 
         View Certificate
-    </button>
+    </a>
 </div>
 
             <!-- Certificate 2: Cloud Computing -->
@@ -560,7 +561,7 @@
                 <h4 class="font-bold text-lg mb-1 group-hover:text-orange-400 transition-colors">MS Excel</h4>
                 <p class="text-sm text-slate-400 mb-2">Microsoft</p>
                 <p class="text-xs text-slate-500 font-mono glass px-2 py-1 rounded inline-block">9782289</p>
-                <a href="" target="_blank" rel="noopener noreferrer" class="mt-3 inline-flex items-center gap-2 text-xs text-orange-400 hover:text-orange-300 transition-colors">
+                <a href="certificates/MS%20Excel.pdf" target="_blank" rel="noopener noreferrer" class="mt-3 inline-flex items-center gap-2 text-xs text-orange-400 hover:text-orange-300 transition-colors">
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
                     View Certificate
                 </a>
@@ -659,24 +660,5 @@
         });
     </script>
     
-<div id="certificateModal"
-     class="fixed inset-0 z-50 hidden items-center justify-center bg-black/90 p-4"
-     onclick="closeCertificate()">
-
-    <div class="relative w-full max-w-5xl"
-         onclick="event.stopPropagation()">
-
-        <button onclick="closeCertificate()"
-                class="absolute -top-10 right-0 text-white text-3xl">
-            &times;
-        </button>
-
-        <img id="certificateImage"
-             src=""
-             alt="Certificate"
-             class="w-full max-h-[85vh] object-contain rounded-xl">
-    </div>
-</div>
-
 </body>
 </html>
